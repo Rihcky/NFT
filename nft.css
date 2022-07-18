@@ -1,0 +1,107 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    max-width: 1440px;
+    min-width: 375px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 10%;
+}
+
+/* TEXT STYLING */
+
+h1{
+    color: white;
+    font-weight: 600;
+}
+
+p{  
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+span{
+    color: white;
+}
+
+h2{
+    color: hsl(178, 100%, 50%);
+}
+
+/*LAYOUTS*/
+
+.box{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 18px;
+    margin: auto;   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 340px;
+ }
+ 
+.card-container{
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+}
+
+/*IMG*/
+
+.card-img{
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.nft{
+    border-radius: 12px;
+    width: 300px;  
+ }
+
+/* ICONS*/
+
+.card-infos{
+    display: flex;
+}
+
+.ethereum{
+    display: flex;
+    align-items: center;       
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.icon{
+    margin-right: 3px;
+}
+
+
+
+/*AVATAR*/
+
+hr{
+    border: solid 1px hsl(215, 32%, 27%);
+    width: 280px;
+}
+
+.card-creator{
+    padding-top: 15px;
+    padding-left: 5px;
+    display: flex;
+}
+
+.avatar{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.name{
+    padding-left: 20px;
+}
